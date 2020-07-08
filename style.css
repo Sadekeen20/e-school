@@ -1,3 +1,7 @@
+/* nav */
+
+
+/* top banner */
 #logo{
     height: 40px;
     width: 134.92;
@@ -11,6 +15,49 @@
     border-radius: 35px;
     font-size: smaller;
 }
+
+
+/* 4-card-decks  */
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+
+
+.no-shadow{
+    box-shadow: none;
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-img-top{
+    padding: 10px;
+}
+
+#credit img{
+    width: 76.42px;
+    height: 110px;
+   padding-top: 35px;
+
+}
+.ctrl-img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; 
+}
+
+
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+/* online courses */
 
 .icon-sm{
     height: 20px;
@@ -53,7 +100,9 @@ p{
 .center-text{
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
 }
+
 
 .colored-text{
     color:#e53935;
@@ -63,35 +112,32 @@ p{
     
     width: 90%;
 }
-.card{
-    border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
 
-}
-.card:hover{
-    background-color: white;
-}
-.card-img-top{
-    padding: 10px;
-}
 
-#credit img{
-    padding:15%;
-}
-
-.ctrl-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block; 
-}
-
-.center-text{
-   text-align: center;
+/* credentials */
+.shadow{
+    box-shadow: 5px 5px lightgray;
+    padding: 40px 20px;
+    border:  .5px solid lightgray;
+    /* rgb(41, 39, 39); */
 }
 
 
 
+.row-space{
+    margin-bottom: 0px;    
+}
+
+
+/* carousel */
+.carousel-inner{
+    padding:20px;
+   
+}
+.carousel-inner img{
+    height: 60px;
+    width: 135px;
+}
 
 
 
@@ -145,4 +191,5 @@ p{
 	text-decoration:none;
     font-weight: bold;
 }
+
 
