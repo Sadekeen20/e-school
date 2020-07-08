@@ -16,7 +16,9 @@
     font-size: smaller;
 }
 
-
+small{
+    font-size: smaller;
+}
 /* 4-card-decks  */
 .card{
     border: none;
