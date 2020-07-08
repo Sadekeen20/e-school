@@ -52,8 +52,6 @@
 
 .grow:hover
 {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
         transform: scale(1.1);
 }
 
@@ -68,25 +66,16 @@
 .card-footer{
     background-color: white;
     border-top: none;
+    padding: 1px 1px 1px 1px;
 }
 .col{
     padding: 2px 0px 1px 0px;
-}
-
-
-
-.float-r{
-    margin-left: auto;
-}
-.float-l{
-    float: left;
 }
 
 .bg1{
     background-color: #F0FFF0; 
 }
 .container{
-   
     padding-bottom: 100px;
 }
 .blue-text{
@@ -109,7 +98,6 @@ p{
 }
 .free-padd{
     padding:10%;
-    
     width: 90%;
 }
 
@@ -119,20 +107,12 @@ p{
     box-shadow: 5px 5px lightgray;
     padding: 40px 20px;
     border:  .5px solid lightgray;
-    /* rgb(41, 39, 39); */
-}
-
-
-
-.row-space{
-    margin-bottom: 0px;    
 }
 
 
 /* carousel */
 .carousel-inner{
-    padding:20px;
-   
+    padding:20px;  
 }
 .carousel-inner img{
     height: 60px;
@@ -145,12 +125,13 @@ p{
 
 .footer {
 	background:  #282531;
-
 	padding-bottom: 30px;
-	position: relative;
+    position: relative;
+    max-height: 500px;
 }
 .footer p {
-	margin: 0;
+    margin: 0;
+    font-size: smaller;
 }
 
 .footer h4 {
@@ -161,6 +142,7 @@ p{
 	padding: 60px 0 0px;
     margin-bottom: 15px;
 }
+
 
 .footer h6 {
 	color: white;
