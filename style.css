@@ -129,11 +129,10 @@ p{
 	background:  #282531;
 	padding-bottom: 30px;
     position: relative;
-    max-height: 500px;
 }
 .footer p {
     margin: 0;
-    font-size: smaller;
+    font-size: medium;
 }
 
 .footer h4 {
